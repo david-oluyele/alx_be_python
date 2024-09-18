@@ -5,7 +5,7 @@ monthly_income = int(input("Enter your monthly income: "))
 total_expenses = int(input("Enter your total monthly expenses: "))
 
 #Calculate monthly savings
-monthly_savings = monthly_income - total_expenses
+monthly_savings = int(monthly_income - total_expenses)
 
 #Project annual savings
 projected_savings = monthly_savings * 12 + (monthly_savings * 12 * 0.05)

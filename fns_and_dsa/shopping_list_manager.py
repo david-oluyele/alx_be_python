@@ -26,7 +26,7 @@ def main():
                 print(f"{item} is not in the shopping list.")
         elif choice == '3':
             #Displays the Shopping List
-            if shopping_list:
+            if shopping_list: #Checks if the list is not empty
                 print("Current Shopping List: ")
                 for i, item in enumerate(shopping_list, start=1):
                     print(f"{i}. {item}")
